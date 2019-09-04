@@ -1,0 +1,95 @@
+body {
+    background-image: url("images/grid.jpg");
+    background-size: 100% 100% ;
+    background-size: cover ; 
+    /* background-repeat: no-repeat ; */ */
+
+}
+
+
+@font-face { 
+    font-family: ccc; 
+    src: url(Calculator.ttf);
+} 
+
+
+
+
+#calculator {
+    background-color: rgba(0,0,0,0.4);
+    width: 450px;
+    height: 350px;
+    color: #fff;
+    padding: 55px;
+    padding-top: 30px;
+    border-style: none;
+/*    border-radius: 25px;*/
+    margin: auto;
+    margin-top: 50px;
+    font-family: ccc, sans-serif;
+    
+}
+
+
+input {
+    float: right;
+    clear: both;
+    width: 125px;
+    height: 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+/*    border-radius: 20px;*/
+    font-family: ccc, sans-serif;
+}
+
+
+p {
+    font-size: 35px;
+    font-family: ccc, sans-serif;
+    color: lawngreen
+
+}
+
+
+#calculate{
+    background-color: deeppink;
+    border-style: none;
+/*    border-radius: 20px;*/
+    width: 220px;
+    height: 45px;
+    color: lawngreen;
+    font-size: 30px;
+    margin-right: 120px;
+    font-family: ccc, sans-serif;
+}
+
+
+
+
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    color: lawngreen;
+    font-family: ccc, sans-serif;
+}
+
+
+
+#perc {
+    color: rgb(255,88,0);
+    font-family: ccc, sans-serif;
+}
+
+
+
+#tip {
+    color: rgb(255,88,0);
+}
+
+
+#total {
+    color: rgb(255,88,0);
+}

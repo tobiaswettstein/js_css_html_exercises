@@ -1,0 +1,150 @@
+<!DOCTYPE>
+<html>
+    
+    <!-- coment -->
+    
+    <head>
+        
+        <title> Test Page Tobi</title>
+        
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+        
+        <script>
+            
+            var x = 27;
+            var y = 38;
+            var z = x+y;
+            var myCar;
+            var firstName;
+            
+            myCar = 'subaru';
+//            alert(myCar);
+            
+            
+        </script>
+        
+        
+        <style>
+/*            #para2 {color:red; font-size:24px};            */
+        </style>
+        
+        
+    </head>
+    
+    <body>
+        
+        <h1>Thanks !</h1>
+        
+        <p id="fruit"> yummy fruit </p>
+        
+<!-- 
+        <p style="color:green; font-size:12px;">paragraph 1. text text text text text text text text text text <br/>
+            text text text text text text<br/>
+            <img src="images/head_small.jpg" alt="Tobi" width="250" height="350"/> &nbsp;&nbsp;
+            <img src="images/head_small.jpg" alt="Tobi" width="250" height="350"/>
+
+        </p>
+-->
+
+        <p id="para2"> paragraph 2. test testtest test </p>
+        
+        <a href="http://tobiaswettstein.pythonanywhere.com/app/epic_battle/">NPC Battle</a>
+        
+        <p class="para3">
+            text text text text text text text text text text text text text text <br/>
+            text text text text text text 
+        </p>
+        
+        <p id="para4"> Age
+        </p>
+        
+        
+        
+        <div>
+            <h1>EVENTS with buttons</h1>
+            <p id="para5"> Secret text </p>
+            <button onclick="clicker()"> CLick hier </button>
+        </div>
+        
+        <script>
+            function clicker(){
+            document.getElementById('para5').innerHTML="**********";   
+            }
+        </script>
+        
+        
+        <br> <br> <br> <br> <br> <br> <br> <br>
+        
+<!--
+        <div>
+            <p>Input test</p>
+            <form id="inputTest">
+                First Number : <input type="text" name="num1"> <br>
+                Second Number : <input type="number" name="num2"> <br> 
+                <button onclick="add()"> add these </button>
+            </form>
+            <p id="para6">result</p>
+        </div>
+-->
+        
+        
+        
+
+        <script> 
+            
+//            function add(){
+//                var x = document.getElementById("inputTest");
+////                var result = num1 + num2;
+//                document.getElementById('para6').innerHTML=x;
+//            }
+            
+            var myFruit = ['apple', 'pear', 'Kiwi', 'Orange'];
+            document.getElementById('fruit').innerHTML=myFruit[3];
+            
+//            var year = prompt('what year where u born?');
+//            
+//            var age = 2019 - year ;
+//            
+//            if (age >= 50){
+//                var truth = 'Old AF!';
+//            } else {
+//                var truth = 'Young buck!'
+//            }
+//            
+//            document.getElementById('para4').innerHTML='You are ' + age + ' years old.' + '<br>' + truth;
+
+        </script>
+        
+<br><br>
+
+         
+First name: <input id="first_name">
+Last name: <input id="last_name">
+<button id="say">Say hi!</button>
+ 
+<hr>
+<div id="result"></div>
+ 
+<script>
+function say_hi() {
+    var fname = document.getElementById('first_name').value;
+    var lname = document.getElementById('last_name').value;
+ 
+    var html = 'Hello <b>' + fname + '</b> ' + lname;
+ 
+    document.getElementById('result').innerHTML = html;
+}
+ 
+document.getElementById('say').addEventListener('click', say_hi);
+</script>
+
+
+
+        
+    </body>
+    
+</html>
+
+
+
+
